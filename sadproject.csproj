@@ -67,9 +67,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="aboutpage.aspx" />
+    <Content Include="homepage.aspx" />
+    <Content Include="homestyles.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="aboutpage.aspx.cs">
+      <DependentUpon>aboutpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aboutpage.aspx.designer.cs">
+      <DependentUpon>aboutpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="homepage.aspx.cs">
+      <DependentUpon>homepage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="homepage.aspx.designer.cs">
+      <DependentUpon>homepage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
