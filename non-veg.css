@@ -1,0 +1,96 @@
+﻿nav {
+    top: 1px;
+    right: 5px;
+    padding: 5px;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background-color: rgba(0,0,0,0.6);
+}
+
+    nav ul {
+        padding: 25px;
+        margin: 0;
+        float: right;
+        color:white;
+    }
+
+        nav ul li {
+            z-index: 1;
+            font-family: Arial;
+            font-weight: bold;
+            display: inline-block;
+            float: left;
+            list-style: none;
+            padding: 5px;
+        }
+
+    nav a {
+        font-family: Arial;
+        display: block;
+        padding: 1px;
+        color: white;
+        font-size: 17px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    nav ul :hover {
+        background-color: aqua;
+        color: black;
+    }
+
+    nav ul ul {
+        display: none;
+        position: absolute;
+    }
+
+    nav ul li:hover > ul {
+        display: inherit;
+    }
+
+    nav ul ul li {
+        float: none;
+        display: list-item;
+        position: relative;
+    }
+    section{
+       
+        
+        font-family:'Comic Sans MS';
+        float:left;
+
+    }
+    .images h1{
+font-size:45px;
+padding:85px;
+
+text-align:center;
+    }
+    .imag1 img{
+        float:left;
+        
+      
+
+    }
+    .button1 button{
+
+        color:black; 
+       font-display:block;
+       font-weight:bold;
+    
+       border:2px solid;
+       border-color:black;
+        
+      
+    }
+    .button1 label{
+        border:2px solid;
+        border-color:black;
+
+
+    }
+    .auto-style{
+        padding:5px;
+
+    }
