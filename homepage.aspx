@@ -39,12 +39,16 @@
               <div class="menu">
                 <a target="_blank" href="images/mutton karahi.jpg">
                     <img src="images/mutton karahi.jpg" alt="Non-Veg"  width="600" height="400" />  
+
                 </a>
+                  
                 <div class="desc">Non-Veg</div>
               </div>
               
               <div class="menu">
-                <a target="_blank" href="images/st1.jpg">
+                
+                <a target="_blank" href="non-veg.aspx">
+                  
                   <img src="images/st1.jpg" alt="Main-Course" width="600" height="400" />
                 </a>
                 <div class="desc">Veg</div>
@@ -54,6 +58,7 @@
                 <a target="_blank" href="images/soup.jpg">
                   <img src="images/soup.jpg" alt="Main-Course" width="600" height="400" />
                 </a>
+            <a href="non-veg.aspx"></a>
                 <div class="desc">Soup</div>
              </div>
 
