@@ -70,6 +70,7 @@
     <Content Include="aboutpage.aspx" />
     <Content Include="homepage.aspx" />
     <Content Include="homestyles.css" />
+    <Content Include="soup.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -88,6 +89,13 @@
       <DependentUpon>homepage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="soup.aspx.cs">
+      <DependentUpon>soup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="soup.aspx.designer.cs">
+      <DependentUpon>soup.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

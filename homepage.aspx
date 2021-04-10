@@ -30,7 +30,7 @@
             </div>
 
         <div class="menu">
-                <a target="_blank" href="images/sea-food">
+                <a target="_blank" href="seafoods.aspx">
                          <img src="images/sea-food.png" alt="Sea Food"  width="600" height="400" />
                 </a>
             <div class="desc">Sea Food</div>
@@ -55,11 +55,13 @@
             </div>
 
         <div class="menu">
-                <a target="_blank" href="images/soup.jpg">
+                <a target="_blank" href="soup.aspx">
                   <img src="images/soup.jpg" alt="Main-Course" width="600" height="400" />
+                   
                 </a>
-            <a href="non-veg.aspx"></a>
+            <a href="soup.aspx"></a>
                 <div class="desc">Soup</div>
+             <a href="soup.aspx"></a>
              </div>
 
         <div class="menu">
